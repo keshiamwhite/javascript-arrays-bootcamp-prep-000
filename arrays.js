@@ -1,9 +1,9 @@
 var chocolateBars = ["sncickers", "hundred grand", "kitkat", "skittles"];
 
-var candyString = "foo"
+var gummies = "foo"
 
-function addElementToBeginningOfArray(chocolateBars, candyString) {
-  return [candyString, ...chocolateBars];
+function addElementToBeginningOfArray(chocolateBars, gummies) {
+  return [gummies, ...chocolateBars];
 }
 
 function descructivelyAddElementToBeginningOfArray() {
