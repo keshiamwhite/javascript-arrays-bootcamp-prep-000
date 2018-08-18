@@ -6,7 +6,7 @@ function addElementToBeginningOfArray(chocolateBars, gummies) {
   return [gummies, ...chocolateBars];
 }
 
-function descructivelyAddElementToBeginningOfArray(chocolateBars, gummies){
+function descructivelyAddElementToBeginningOfArray(chocolateBars, gummies) {
   chocolateBars.unshift(gummies);
   return chocolateBars;
 }
