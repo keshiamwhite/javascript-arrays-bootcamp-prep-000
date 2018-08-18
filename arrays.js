@@ -24,18 +24,18 @@ function accessElementInArray(array, index){
   return array[index];
 }
 
-function destructivelyRemoveElementFromBeginningOfArray(chocolateBars, gummies) {
+function destructivelyRemoveElementFromBeginningOfArray(chocolateBars) {
   chocolateBars.shift();
   return chocolateBars;
 }
 
-function removeElementFromBeginningOfArray(chocolateBars, gummies) {return chocolateBars.slice(1);
+function removeElementFromBeginningOfArray(chocolateBars) {return chocolateBars.slice(1);
 }
 
-function destructivelyRemoveElementFromEndOfArray() {
+function destructivelyRemoveElementFromEndOfArray(chocolateBars) {
    return chocolateBars.slice(1);
 }
 
-function removeElementFromEndOfArray() {
+function removeElementFromEndOfArray(chocolateBars) {
   
 }
