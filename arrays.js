@@ -1,5 +1,37 @@
 var chocolateBars = ['sncickers', 'hundred grand', 'kitkat', 'skittles'];
 
-var addElementToBeginningOfArray = chocolateBars.unshift('Hershey');
+function addElementToBeginningOfArray() {
+  
+}
 
-var descructivelyAddElementToBeginningOfArray
+function descructivelyAddElementToBeginningOfArray() {
+  
+}
+
+function addElementToEndOfArray() {
+  
+}
+
+function destructivelyAddElementToEndOfArray() {
+  
+}
+
+function accessElementInArray() {
+  
+}
+
+function destructivelyRemoveElementFromBeginningOfArray() {
+  
+}
+
+function removeElementFromBeginningOfArray() {
+  
+}
+
+function destructivelyRemoveElementFromEndOfArray() {
+  
+}
+
+function removeElementFromEndOfArray() {
+  
+}
