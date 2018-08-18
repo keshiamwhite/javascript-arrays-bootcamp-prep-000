@@ -11,12 +11,11 @@ function destructivelyAddElementToBeginningOfArray(chocolateBars, gummies) {
   return chocolateBars;
 }
 
-
-function addElementToEndOfArray() {
+function addElementToEndOfArray(chocolateBars, gummies) {
   
 }
 
-function destructivelyAddElementToEndOfArray() {
+function destructivelyAddElementToEndOfArray(chocolateBars, gummies) {
   
 }
 
