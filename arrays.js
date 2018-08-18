@@ -7,8 +7,8 @@ function addElementToBeginningOfArray(chocolateBars, gummies) {
 }
 
 function descructivelyAddElementToBeginningOfArray(chocolateBars, gummies){
-  return [gummies, ...chocolateBars];
-  
+  chocolateBars.unshift(gummies);
+  return chocolateBars;
 }
 
 function addElementToEndOfArray() {
