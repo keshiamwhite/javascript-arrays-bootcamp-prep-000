@@ -34,8 +34,7 @@ function removeElementFromBeginningOfArray(chocolateBars, gummies) {
 }
 
 function destructivelyRemoveElementFromEndOfArray() {
-    chocolateBars.slice(1);
-  return chocolateBars;
+   return chocolateBars.slice(1);
 }
 
 function removeElementFromEndOfArray() {
