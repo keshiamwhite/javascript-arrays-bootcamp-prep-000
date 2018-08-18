@@ -6,10 +6,11 @@ function addElementToBeginningOfArray(chocolateBars, gummies) {
   return [gummies, ...chocolateBars];
 }
 
-function descructivelyAddElementToBeginningOfArray(chocolateBars, gummies) {
+function destructivelyAddElementToBeginningOfArray(chocolateBars, gummies) {
   chocolateBars.unshift(gummies);
   return chocolateBars;
 }
+
 
 function addElementToEndOfArray() {
   
