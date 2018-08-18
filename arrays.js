@@ -6,7 +6,8 @@ function addElementToBeginningOfArray(chocolateBars, gummies) {
   return [gummies, ...chocolateBars];
 }
 
-function descructivelyAddElementToBeginningOfArray() {
+function descructivelyAddElementToBeginningOfArray(chocolateBars, gummies){
+  return [gummies, ...chocolateBars];
   
 }
 
